@@ -15,3 +15,4 @@ function checkAnswer() {
         feedback.style.color = "red";
     }
 }
+document.getElementById("submit-answer").addEventListener("click", checkAnswer);
